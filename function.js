@@ -6,7 +6,7 @@
 // *------------------------------/
 function fullName(fName, lName){
   return fName+" "+ lName;
-} 
+}  
 console.log(fullName("FARHAN", "AKHTAR"));
 
 // *------------------------------------
