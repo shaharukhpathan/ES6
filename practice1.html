@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function getfulladdress()
+        {
+
+            const name=document.getElementById('name').value;
+            const location=document.getElementById('location').value;
+            const city=document.getElementById('city').value;
+            document.getElementById('address').value=name+" "+location+" "+city;
+        }
+
+    </script>
+</head>
+<body>
+    name:    <input type="text" id="name">
+    <br>
+    <br>
+    <br>
+    location:<input type="text" id="location">
+    <br>
+    <br>
+    <br>
+    city:    <input type="text" id="city">
+    <br>
+    <br>
+    <br>
+    <input type="button" value="click add the full address" onclick="getfulladdress()">
+    address:<input type="text" id="address">
+    <br>
+
+</body>
+</html>
