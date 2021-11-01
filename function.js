@@ -18,3 +18,9 @@ function fullName(fName, lName){
 var FULLNAME= fullName("FARHAN", "AKHTAR");
 console.log(FULLNAME);
 
+// const puranaam=(pname,aname)=>{
+//   return pname + aname;
+// }
+// console.log(puranaam("shaharukh","pathankhan"))
+
+
